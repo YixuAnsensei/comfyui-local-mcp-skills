@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ComfyUI runtime artifacts (never commit models/outputs)
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.bin
+output/
+input/
+*.mp4
+*.webp
+*.png
+*.jpg
+*.jpeg
+
+# local overrides
+.env
+*.local.json
